@@ -63,12 +63,12 @@ class Kwnnsy {
   }
 
  get lcLinks () {
-    return this.client.vurlMiaf;
+    return this.client.vurlKwnnsy;
   }
 
     urlDurdur() {
         clearInterval(this.kwnnsyURL).then(x => console.log("basarili! url artık sikilip spamlanıyor!"))
-        let jj = updownheree.miafArray
+        let jj = updownheree.kwnnsyArray
         while(jj.length){
             jj.pop()
         };
